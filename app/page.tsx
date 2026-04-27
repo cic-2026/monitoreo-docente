@@ -8,7 +8,8 @@ export default function Dashboard() {
   const [filtroTurno, setFiltroTurno] = useState("");
   const [loading, setLoading] = useState(true);
 
-  const URL_API = "https://script.google.com/a/macros/continental.edu.pe/s/AKfycbzyQ56hn_3SefRjVHXQo15ehfNGvL-6UV7XfmaZuWSMqkBU8vMu8cd1qYHAr7oHSDrD/exec";
+  const URL_API = 
+  "https://script.google.com/a/macros/continental.edu.pe/s/AKfycbwX5XwgBQL6Je90iynSVyXFKz9zl7Vw2AAi5O70dOBrngz8Zr_RiM2z_1-WdEi0XP58/exec";
 
   useEffect(() => {
     fetch(URL_API)
